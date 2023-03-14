@@ -1,0 +1,140 @@
+
+body{
+    padding: 0;
+    margin: 0 auto;
+    background-image: linear-gradient(220deg, #A0E4CB,#EFF5F5,#497174 95%);
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.passion {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    padding: 0 20%;
+    color: #497174;
+
+}
+
+.bottom-container > p {
+    font-size: .5rem;
+}
+
+.contain > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #497174;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    align-items: center;
+    flex-wrap:wrap; 
+}
+
+.about_h2{
+    margin: 1%;
+}
+
+#about_me{
+    font-size: 1.5rem;
+    padding: 1% 5%;
+    font-family: monospace;
+}
+
+.projects{
+    font-family: monospace;
+}
+
+.self {
+    width: 400px;
+    clip-path: circle();
+    display: inline-block
+}
+
+
+.hero {
+    height: 100vh;
+    width: auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+hr {
+    border-style: dotted none none;
+    width: 10%;
+    color: #497174;
+    border-width: 10px;
+}
+
+h1 {
+    font-size: 8rem;
+    font-family: 'Sacramento', cursive;
+    color: #497174;
+}
+
+h2 {
+    font-family: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #EB6440;
+}
+
+h3{
+    color:#497174;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-family: 'Sacramento', cursive;
+    color: #497174;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 2rem;
+    padding-left:5px;
+
+}
+
+.navbar-nav > li{
+    padding-right:13px;
+  }
+
+.nav-link {
+    color: #497174;
+    font-family: 'Sacramento', cursive;
+    line-height: 1;
+    font-size: 1.6rem;
+    padding-left:10px;
+    border-bottom: .15rem solid transparent;
+}
+
+.nav-link:hover{
+    color: #EB6440;
+    border-bottom-color:#EB6440;
+}
+
+.navbar-brand:hover{
+    color: #EB6440;
+}
+
+.bottom-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
